@@ -1,0 +1,109 @@
+*{
+    margin: 0px;
+    padding: 0px
+}
+nav{
+    background-color: #0D7B77;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding:20px;
+}
+.logo{
+    width:80px;
+}
+.menus-container{
+    list-style: none;
+    display: flex;
+    gap: 10px;
+    font-size: 20px;
+    color: white;
+}
+li:hover{
+    color: rgb(234, 226, 226);
+    cursor:pointer;
+}
+
+.banner-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner-img{
+    width:80%;
+}
+.title{
+    font-size: 75px;
+    color: #0D7B77;
+}
+.left-side-container{
+    text-align: center;
+    
+}
+.description{
+    font-size:20px;
+    padding: 10px;
+}
+button{
+    padding: 15px 30px;
+    border: none;
+}
+.apt-btn{
+    background-color: #00CA9A;
+    color: white;
+    font-size:20px;
+}
+.doc-btn{
+    background-color: #0D7B77;
+    color: white;
+    font-size:20px;
+}
+.service-img{
+    width:130px;
+}
+.service-container{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.service-1{
+    width:250px;
+    height: 320px;
+    text-align:center;
+    padding: 20px;
+    box-shadow: 8px 8px 18px gray;
+    border-radius: 7px;
+}
+.service-title{
+    margin-top:100px;
+    text-align: center;
+}
+.service-btn{
+    background-color: #0D7B77;
+    color: white;
+    font-size: 20px;
+}
+.contact-container{
+  
+    margin: 100px;
+}
+form{
+    width: 60%;
+    margin:auto;
+    text-align: center;
+    box-shadow: 4px 4px 8px gray;
+    padding: 50px;
+}
+input{
+    padding:15px 30px;
+    width: 50%;
+     margin: 5px;
+
+}
+.send-btn{
+    background-color: #0D7B77;
+    color: #fff;
+    font-size:20px;
+    border: none;
+}

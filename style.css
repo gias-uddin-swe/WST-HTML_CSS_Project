@@ -1,0 +1,64 @@
+
+/* button{
+    background-color: cyan;
+    padding:10px 20px;
+    border: none;
+    border-radius:5px;
+}
+
+button:hover{
+    background-color:red;
+    color: white;
+} */
+
+body{
+    font-family: 'Open Sans', sans-serif;
+/* font-family: 'Poppins', sans-serif;
+font-family: 'PT Serif', serif;
+font-family: 'Roboto', sans-serif; */
+}
+.banner{
+    width: 100%;
+    height: 100vh;
+    background-image: url("Images/background.jpg"),linear-gradient(rgba(7, 7, 7,0.5),rgba(6, 6, 6,0.7));
+    background-position: center;
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-blend-mode: overlay;
+}
+
+ .box{
+    width: 300px;
+    height:250px;
+    color: white;
+   font-size: 40px;
+   text-align: center;
+   
+}
+
+.box1{
+    background-color: blue;
+    /* position: relative; */
+    /* z-index: -1; */
+}
+.box2{
+    background-color: red;
+    /* position: fixed; */
+ /* top: 50px;
+ right: 50px; */
+    
+}
+.box3{
+    background-color: green;
+} 
+.box4{
+    background-color: rgb(228, 19, 134);
+} 
+
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+}
